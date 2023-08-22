@@ -10,6 +10,7 @@ body {
 }
 
 .nav-link {
+        text-transform: uppercase;   
         font-family: 'Roboto', sans-serif;
         font-size: 16px;
         font-weight: 500;
@@ -24,11 +25,12 @@ a {
 }
 
 .logotype {
+    text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 3%;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     color: #4D5AE5;
 
 }
@@ -37,15 +39,18 @@ a {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.2;
-    letter-spacing: 3%;
-    color: #2e2f42;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color:#2E2F42;
+    
 }
+
 
 
 
 .contact-item {
     text-decoration: none;
+    text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -90,6 +95,7 @@ font-family: 'Roboto';
 font-weight: 500;
 font-size: 20px;
 line-height: 24px;
+letter-spacing: 0.02em;
 color: #2E2F42;
 }
 
@@ -130,20 +136,43 @@ color: #2E2F42;
 }
 
 .section-portfolio {
-    
+   background-color: #E7E9FC; 
 }
 
 .our-portfolio {
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
     text-align: center;
+    color: #2e2f42;
 }
 
 .portfolio-item {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
 
+.header-portfolio {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.paragraph-portfolio {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
 }
 
 .footer-section  {
@@ -151,10 +180,11 @@ color: #2E2F42;
 }
 
 .logotype-footer {
+    text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: left;
     color: #4D5AE5;
@@ -164,7 +194,7 @@ color: #2E2F42;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: left;
     color: #F4F4FD
