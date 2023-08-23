@@ -9,16 +9,11 @@ body {
    
 }
 
-.nav-link {
-        text-transform: uppercase;   
-        font-family: 'Roboto', sans-serif;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.02em;
-        text-align: left;
-        color: #2E2F42;
+.address-link {
+    font-style: normal;
 }
+
+
 
 a {
     text-decoration: none;
@@ -45,18 +40,35 @@ a {
     
 }
 
+.header-link {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2E2F42;
+}
 
 
-
-.contact-item {
+.contact-link {
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #434455;
+}
+
+.contact-link :hover {
+    color: #404BBF;
+}
+
+.contact-link :focus {
+  color: #404BBF;
 }
 
 .hero-section {
@@ -80,10 +92,18 @@ a {
     font-family:'Roboto'sans-serif ;
     font-weight: 500;
     font-size: 16px;
-    line-height: ;
-    letter-spacing: ;
-    color: #FFF;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
     cursor: pointer;
+}
+
+.button-order :hover {
+    background-color: #404BBF;
+}
+
+.button-order :focus {
+    background-color: #404BBF;
 }
 
 .purpose {
@@ -163,7 +183,7 @@ color: #2e2f42;
 .header-portfolio {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
@@ -175,6 +195,7 @@ color: #2e2f42;
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
+    color: #434455;
 }
 
 .footer-section  {
