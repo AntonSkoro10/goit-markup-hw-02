@@ -51,11 +51,11 @@ a {
     color: #2E2F42;
 }
 
-.header-link :hover {
+.header-link:hover {
     color: #404bbf;
 }
 
-.header-link :focus {
+.header-link:focus {
     color: #404bbf;
 }
 
@@ -104,11 +104,11 @@ a {
     cursor: pointer;
 }
 
-.button-order :hover {
+.button-order:hover {
     background-color: #404BBF;
 }
 
-.button-order :focus {
+.button-order:focus {
     background-color: #404BBF;
 }
 
@@ -161,6 +161,7 @@ color: #2E2F42;
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #2e2f42;
 }
 
 .role {
