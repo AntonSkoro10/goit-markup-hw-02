@@ -70,11 +70,11 @@ a {
     color: #434455;
 }
 
-.contact-link :hover {
+.contact-link:hover {
     color: #404bbf;
 }
 
-.contact-link :focus {
+.contact-link:focus {
   color: #404bbf;
 }
 
